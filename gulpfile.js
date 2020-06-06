@@ -22,8 +22,8 @@ var gulp          = require('gulp'),
 
 gulp.task('scripts', function() {
 	return gulp.src([
-        'app/libs/jquery/dist/jquery.min.js',
-        'app/libs/jquery.maskedinput-master/dist/jquery.maskedinput.min.js',
+        'app/libs/jquery/jquery.min.js',
+        'app/libs/jquery.maskedinput-master/jquery.maskedinput.min.js',
         'app/libs/bootstrap/js/bootstrap.bundle.min.js',
         'app/libs/svgxuse-master/svgxuse.min.js',
 
